@@ -8,7 +8,7 @@ const readline = require('readline');
 //    output: process.stdout
 // });
 
-//Finds file with .b or .bf extention, which in the same dir as index.js
+//Finds file with .b or .bf extention, which are in the same dir as index.js
 const fileName = fs.readdirSync(__dirname).find(element => {
     if(path.extname(element) === '.b' || path.extname(element) === '.bf'){
         return true;
