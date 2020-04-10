@@ -25,7 +25,7 @@ const main = () => {
     //Creates pointer and 30000 memory cells, which all are equal to 0
     let j = 0;
     let brc = 0;
-    const arr = new Array(30000).fill(0);
+    const arr = new Int8Array(30000).fill(0);
 
     //Interpretaion of brainfuck
     for(let i = 0; i < tokens.length; i++){
