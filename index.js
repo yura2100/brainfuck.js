@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const readline = require('readline');
+//const readline = require('readline');
 
 //Creates readline interface in order to input data into the terminal
 // const rl = readline.createInterface({
@@ -25,7 +25,7 @@ const main = () => {
     //Creates pointer and 30000 memory cells, which all are equal to 0
     let j = 0;
     let brc = 0;
-    const arr = new Int8Array(30000).fill(0);
+    const arr = new Int8Array(30000);
 
     //Interpretaion of brainfuck
     for(let i = 0; i < tokens.length; i++){
